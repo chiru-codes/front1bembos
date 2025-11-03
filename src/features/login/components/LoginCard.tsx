@@ -35,7 +35,7 @@ function LoginCard() {
 
                 <button
                     type="submit"
-                    className="mt-8 bg-blue-800 text-white rounded-lg py-2 font-semibold hover:bg-blue-800 transition cursor-pointer"
+                    className="mt-8 bg-blue-800 text-white rounded-lg py-2 font-semibold hover:bg-blue-700 transition cursor-pointer"
                 >
                     Iniciar Sesión
                 </button>

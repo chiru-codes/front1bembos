@@ -7,7 +7,6 @@
     overflow: hidden;
 }
 
-/* ---------- RESPONSIVE ---------- */
 @media (max-width: 900px) {
     .login-page {
         grid-template-columns: 1fr;
@@ -45,7 +44,7 @@
     }
 }
 
-/* ---------- LADO IZQUIERDO (Diseño) ---------- */
+/* ---------- LADO IZQUIERDO ---------- */
 .design-side {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -93,7 +92,7 @@
 .cell-1-0 {
     background-color: #ff2d37;
     position: relative;
-    overflow: hidden; /* evita bordes raros */
+    overflow: hidden;
 }
 
 .cell-1-0::before {
@@ -134,12 +133,12 @@
     background-color: #ff2d37;
 }
 
-/* Fondo amarillo plano (puedes decorarlo luego) */
+/* Fondo amarillo plano */
 .cell-2-1 {
     background: #ffd500;
 }
 
-/* ---------- LADO DERECHO (Login) ---------- */
+/* ---------- LADO DERECHO ---------- */
 .login-side {
     background: white;
     display: flex;

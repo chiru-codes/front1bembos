@@ -20,7 +20,6 @@ function LoginPage() {
                     alt="Bembos logo"
                     className="w-40 sm:w-48 md:w-56 object-contain select-none"
                 />
-
                 <LoginCard />
             </div>
         </div>
